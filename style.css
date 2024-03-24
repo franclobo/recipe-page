@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Young Serif';
+  src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+  font-family: 'Outfit';
+  src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+:root {
+  --nutmeg: hsl(14, 45%, 36%);
+  --dark_raspberry: hsl(332, 51%, 32%);
+  --white: hsl(0, 0%, 100%);
+  --rose_white: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --light_grey: hsl(30, 18%, 87%);
+  --wenge_brown: hsl(30, 10%, 34%);
+  --dark_charcoal: hsl(24, 5%, 18%)
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--eggshell);
+}
+h1, h2 {
+  font-family: 'Young Serif', serif;
+  color: var(--nutmeg);
+}
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 375px;
+  background-color: var(--white);
+  border-radius: 10px;
+}
+img {
+  width: 375px;
+  height: 200px;
+  border-radius: 10px;
+}
+h1 {
+  font-size: 1.8rem;
+  color: var(--wenge_brown);
+  text-align: left;
+}
+p {
+  margin-top: 0;
+}
+.preparation {
+  display: block;
+  width: calc(100% - 40px);
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  padding: 20px;
+  background-color: var(--rose_white);
+  border-radius: 10px;
+}
+.preparation_title {
+  font-family: 'Outfit', serif;
+  color: var(--dark_raspberry);
+}
+span {
+  color: var(--wenge_brown);
+  font-weight: bold;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: var(--light_grey);
+  margin: 20px 0;
+}
+ul, ol {
+  margin: 0;
+  padding-left: 20px;
+}
+li{
+  padding-left: 20px;
+}
+li::marker {
+  color: var(--nutmeg);
+  padding-inline-start: 20px;
+  font-weight: bold;
+}
+li {
+  margin: 10px 0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid var(--light_grey);
+  text-align: left;
+  color: var(--nutmeg);
+  font-weight: bold;
+}
+.last {
+  border-bottom: none;
+}
