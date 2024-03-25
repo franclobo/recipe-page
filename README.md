@@ -20,8 +20,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![image](https://github.com/franclobo/recipe-page/assets/58642949/be4cf8b3-55e3-403a-a0bd-c3b202967341)
-
+![image](https://github.com/franclobo/recipe-page/assets/58642949/07063557-f01a-48fe-ae15-5f0d6d39825e)
 
 ### Links
 
